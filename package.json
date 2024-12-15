@@ -1,0 +1,14 @@
+{
+  "name": "partial-trivia",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "uv run fastapi dev main.py"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
