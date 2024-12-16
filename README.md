@@ -19,8 +19,10 @@ Currency converter es una aplicación desarrollada con FastAPI que permite visua
 
 2. **Instalar FastAPI**
 
+    ```bash
     uv pip install "fastapi[standard]"
 
 3. **Ejecutar el proyecto**
 
+    ```bash
     uv run fastapi dev main.py
