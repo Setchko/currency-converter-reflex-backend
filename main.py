@@ -2,18 +2,20 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-# Tasas de cambio ficticias (1 USD = X)
+# Tasas de cambio simuladas (1 USD = X)
+# Estas tasas son de un día específico (16/12/2024), lo ideal es obtenerlas de un servicio externo.
 rates = {
     "USD": 1.0,
-    "EUR": 0.85,
-    "JPY": 110.66,
-    "GBP": 0.73,
-    "AUD": 1.35,
-    "CAD": 1.27,
-    "CHF": 0.92,
-    "CNY": 6.47,
-    "SEK": 8.62,
-    "NZD": 1.44,
+    "EUR": 0.95,
+    "JPY": 154.22,
+    "GBP": 0.79,
+    "AUD": 1.57,
+    "CAD": 1.42,
+    "CHF": 0.89,
+    "CNY": 7.28,
+    "SEK": 10.88,
+    "NZD": 1.73,
+    "COP": 4303.69,
 }
 
 @app.get("/convert")
