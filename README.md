@@ -29,4 +29,4 @@ Currency converter es una aplicación desarrollada con FastAPI que permite visua
     ```bash
     uv run fastapi dev main.py
 
-#RECOMENDADO PRIMERO INICIAR EL BACKEND Y LUEGO EL FRONTEN
+# RECOMENDADO PRIMERO INICIAR EL BACKEND Y LUEGO EL FRONTEN
